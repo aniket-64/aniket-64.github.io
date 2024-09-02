@@ -113,7 +113,7 @@
                             <h3 class="mb-0">Indian Institute of Technology Kanpur</h3>
                             <div class="subheading mb-3">Bachelor of Technology</div>
                             <div>Computer Science and Engineering</div>
-                            <p>GPA: 10/10</p>
+                            <p>GPA: 9.91/10</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Dec 2021 - May 2025 (Expected)</span></div>
                     </div>
@@ -192,7 +192,7 @@
                     <h2 class="mb-5">Scholastic Achievements</h2>
                     <ul class="lead fa-ul mb-0">
 
-                        <li type="disc"> Awarded the Academic Excellence Award twice by IIT Kanpur for exceptional academic performance. </li>
+                        <li type="disc"> Awarded the Academic Excellence Award thrice by IIT Kanpur for exceptional academic performance. </li>
                         <li type="disc"> Received the Reliance Foundation Scholarship in CS and AI, awarded to 60 undergraduates across India. </li>
                         <li type="disc"> Secured All India Rank 201 in JEE Advanced 2021 among 140 thousand shortlisted candidates. </li>
                         <li type="disc"> Secured All India Rank 29 in JEE Mains 2021 among 1 million applicants. </li>
@@ -261,6 +261,84 @@
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Interthread Memory Isolation</h3>
+                            <div class="subheading">CS614 Project, Prof. Debadatta Mishra</div>
+                            <ul>
+                                <li type="disc">
+					Developed a mechanism for inter-thread memory isolation in the Linux kernel using temporary TLB-entries
+                                </li>
+                                <li type="disc">
+					Debugged complex deadlock scenarios, and ensured correctness using IPIs for synchronisation across multiple cores
+				</li>
+                                <li type="disc">
+					Explored Intel TSX extensions to optimise the solution by avoiding the use of IPIs to achieve increased parallelism
+				</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2024 - Apr 2024</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Python to x86-64 Compiler</h3>
+                            <div class="subheading">CS335 Project, Prof. Swarnendu Biswas</div>
+                            <ul>
+                                <li type="disc">
+					Developed a fully functional compiler for a statically typed subset of Python generating x86-64 assembly for Linux
+                                </li>
+                                <li type="disc">
+					Wrote a lexer, parser and semantic analyser using Flex and Bison, implementing static type checking for Python
+				</li>
+                                <li type="disc">
+					Implemented support for advanced features including strings, classes, objects and multi-level inheritance
+				</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2024 - Apr 2024</span></div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">SCC Competition at ISC’24</h3>
+                            <div class="subheading">Prof. Preeti Malakar, Prof. Swarnendu Biswas</div>
+                            <ul>
+                                <li type="disc">
+					Parallelised the C++ microphysics package of ICON and ported it to GPU using OpenACC compiler directives
+                                </li>
+                                <li type="disc">
+					Achieved 20x speedup over CPU baseline after loop-reordering and changes to data-structures to eliminate dependences
+				</li>
+                                <li type="disc">
+					Performed profiling and strong scaling of the RegCM climate simulator to identify performance bottlenecks
+				</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Mar 2024 - Apr 2024</span></div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Building GemOS</h3>
+                            <div class="subheading">CS330 Project, Prof. Debadatta Mishra</div>
+                            <ul>
+                                <li type="disc">
+					Added support for syscalls like strace and user space function tracing - ftrace, utilizing circular buffers in gemOS
+                                </li>
+                                <li type="disc">
+					Developed handlers for mmap, munmap, and mprotect, along with a page-fault handler for lazy allocation faults
+				</li>
+                                <li type="disc"> 
+					Implemented support for cfork syscall by engineering a Copy-on-Write fault handler in a 4-level paging system with TLBs
+				</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Aug 2023 - Nov 2023</span></div>
+                    </div>
 
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
